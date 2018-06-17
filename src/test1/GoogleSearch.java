@@ -34,7 +34,9 @@ public class GoogleSearch {
 	
 @Test 
 public void openGoogle()
-{
+{     
+	
+	System.out.println("MAKING CHANGE!!!");
 	  driver.get("http://www.google.com");
 	  String pageUrl = "https://www.google.com/?gws_rd=ssl";
 	  Assert.assertEquals(driver.getCurrentUrl(), pageUrl);
